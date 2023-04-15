@@ -1,0 +1,23 @@
+/* Estilos para el botón */
+#myButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para la animación */
+#myButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+#myButton:active {
+  background-color: #00458a;
+  transform: translateY(2px);
+}
+
